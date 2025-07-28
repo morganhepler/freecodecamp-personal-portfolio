@@ -12,6 +12,7 @@ header {
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 header h1 {
@@ -348,6 +349,11 @@ footer a {
 }
 
 @media(max-width: 600px) {
+  header {
+    position: relative;
+    top: 0;
+  }
+
   .about-text {
     margin: 40px auto 10px;
     width: 85%;
